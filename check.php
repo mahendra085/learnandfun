@@ -129,14 +129,3 @@ echo 'amount_due_case5 '. number_format($amount_due_case5,2)."\n";
 // Final amount SUM : 8,32,750.07257
 
 // GST 7% :  58292.50507990001
-
-
-$a1 = 832750.072;
-$b1 = 58292.595;
-echo "a = ".$a1."\n";
-echo "b = ".$b1."\n";
-echo 'res1 = '. number_format(($a1+$b1),2); 
-echo "\n";
-$res = bcmul($a1, $b1, 2); 
-  
-echo $res; 
